@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+input[type="text"] {
+    width: calc(100% - 120px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    outline: none;
+    background-color: #1b263b;
+    color: #ffffff;
+}
+
+input[type="button"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #357ab7;
+}
+
+#Resultados {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#Resultados > div {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#Imagen img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#letra {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+#descarga {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#descarga a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#descarga a:hover {
+    background-color: #357ab7;
+}
+
+.artistas,
+.canciones {
+    margin-top: 20px;
+}
+
+.artistas input,
+.canciones input {
+    margin-bottom: 10px;
+}
